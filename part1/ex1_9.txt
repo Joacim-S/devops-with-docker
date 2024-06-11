@@ -1,0 +1,1 @@
+touch ex1_9.log && docker run -v "$(pwd)/ex1_9.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
